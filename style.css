@@ -1,0 +1,427 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    height: 880px;
+    position: relative;
+    background-image: url("images/img-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-color {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.header-background {
+    height: 880px;
+    padding-top: 70px;
+}
+.logo {
+    margin-bottom: 170px;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    width: 100%;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.first-li {
+    border-bottom: 4px solid red;
+    padding-bottom: 10px;
+}   
+.bc-img {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.slide {
+    color: white;
+}
+.slide h1 {
+    margin-bottom: 45px;
+    font-size: 60px;
+}
+.slide p {
+    font-size: 20px;
+}
+.slide .buttons {
+    margin-top: 45px;
+    display: flex;
+}
+.slide .buttons button {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    border-radius: 50px;
+    border: none;
+    width: 215px;
+    height: 65px;
+    display: block;
+}
+.slide .buttons .get-started-button {
+    margin-right: 30px;
+    background-color: #fe504f;
+}
+.slide .buttons .learn-more-button{
+    background-color: #343434;
+}
+.our-services .row:last-child {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-services p {
+    font-size: 14px;
+    color: #aeaeae;
+}
+.our-services h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.our-services h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.our-services-block {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our-services-tittle-block {
+    text-align: center;
+    margin-bottom: 65px;
+}
+.our-services-tittle-block h1 {
+    margin-bottom: 30px;
+}
+.our-services-block img{
+    margin-bottom: 15px;
+}
+.our-services-block .red-solid {
+    margin: auto;
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.contact-us {
+    text-align: center;
+    color: white;
+    background-image: url("images/img-14.png");
+    background-repeat: no-repeat;
+}
+.contact-us h1 {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 34px;
+}
+.contact-us button {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin: auto;
+    background-color: #fe504f;
+    width: 215px;
+    height: 65px;
+    font-size: 20px;
+    display: block;
+    border: none;
+    border-radius: 40px;
+}
+.contact-us-dots {
+    background-image: url("images/img-13.png");
+    padding-top: 125px;
+    padding-bottom: 95px;
+}
+.about-us {
+    padding: 80px 0;
+
+}
+.about-us-title {
+    margin-bottom: 90px;
+    text-align: center;
+}
+.about-us-title h1, .news-title h1 {
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-us-title p, .news-title p{
+    font-size: 16px;
+    color: #aeaeae;
+}
+.about-us h3 {
+    color: #fe504f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-us h3:after {
+    content:"";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    display: block;
+    margin: 25px 0;
+}
+.what-we-do p {
+    color: #343434;
+}
+.our-clients-slick {
+    width: 568px;
+}
+.our-clients-logos {
+    flex-wrap: wrap;
+    display: flex;
+}
+.our-clients-logos img {
+    margin: 2.5px;
+}
+.row-block {
+    display: flex;
+}
+.slick-dots li button:before {
+    content:"";
+    width: 35px;
+    height: 5px;
+    background-color: #aeaeae;
+    display: block;
+}
+.slick-dots li button:before:hover {
+    background-color: #fe504f;
+}
+.slick-dots li  {
+    width: 35px;
+    height: 5px;
+}
+.slick-dots li.slick-active button:before {
+    background-color: #fe504f;
+}
+.our-team {
+    width: 100%;
+}
+.clark-kent {
+    width: 200px;
+    height: 200px;
+    background-color: #fe504f;
+    color: white;
+}
+.clark-kent h2 {
+    width: 200px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.work-position {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.our-team h2:after {
+    content:"";
+    width: 160px;
+    height: 1px;
+    background-color: #bb3030;
+    display: block;
+    margin-top: 55px;
+    margin-bottom: 13px;
+}
+.photos {
+    flex-wrap: wrap;
+    display: flex;
+}
+.photos img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.video-about-our-work {
+    text-align: center;
+    color: white;
+    background-image: url("images/img-21.png");
+}
+.video-about-our-work .col-xs-12 {
+    flex-direction: column;
+}
+.dots {
+    background-image: url("images/dots.png");
+}
+.video-about-our-work .background-color {
+    padding: 90px 0;
+}
+.video-about-our-work button {
+    display: block;
+    background-image: url("images/img-34.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: none;
+    border-radius: 50px;
+    background-color: #fd504f;
+    width: 90px;
+    height: 90px;
+}
+.video-about-our-work h1 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.news {
+    padding-bottom: 80px;
+}
+.news-title {
+    text-align: center;
+    padding: 80px 0;
+}
+.article {
+    height: 300px;
+    padding: 30px;
+    position: relative;
+   background-color: #343434;
+}
+.article h3 {
+    color: #fe504f;
+    font-weight: bold;
+    font-size: 22px;
+}
+.article h3:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fe504f;
+    margin: 15px 0;
+}
+.article p {
+    color: white;
+}
+.article p:last-child {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    color: #fe504f;
+}
+.article-photo.short-photo img {
+    width: 275px;
+}
+.article-photo img {
+    display: block;
+    width: 600px;
+    height: auto;
+    height: 300px;
+}
+.news-row {
+    display: flex;
+}
+.hover-article {
+    display: none;
+}
+.articles .col-xs-12 {
+    flex-direction: column;
+}
+.registration-form {
+    color: white;
+    background-image: url("images/img-25.png");
+    background-size: cover;
+}
+.registration-form-background {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contact-logo {
+    margin-bottom: 35px;
+}
+.registration-form .red-line:after, .right-block h3:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #fd504f;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contact-block {
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact-block img {
+    margin-right: 15px;
+}
+.contact-block p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right-block {
+    position: relative;
+}
+.right-block input {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #aeaeae;
+    background-color: rgba(0, 0, 0, 0);
+}
+.right-block .textarea {
+    width: 100%;
+    height: 190px;
+    padding: 15px;
+    border: 1px solid #aeaeae;
+    background-color: rgba(0, 0, 0, 0);
+}
+.right-block h3 {
+    color: #fd504f;
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-block h3:after {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.right-block p {
+    margin-bottom: 40px;
+}
+.right-block button {
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    background-color: #fd504f;
+    border: none;
+    margin-top: 30px;
+}
+.right-btn {
+    text-align: right;
+}
+footer {
+    padding: 45px 0;
+    background-color: #343434;
+}
+.footer-text p{
+    text-transform: uppercase;
+    color:white;
+}
+.footer-a {
+    display: flex;
+}
+.footer-a a {
+    height: 20px;
+    padding: 0 15px;
+    border-right:1px solid #fd504f;
+}
+.footer-a a:last-child {
+    border: none;
+}
+
+
+
